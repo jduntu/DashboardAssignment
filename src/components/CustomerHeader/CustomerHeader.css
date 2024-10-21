@@ -1,0 +1,87 @@
+.customer-header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.customer-header-left h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+
+.customer-header-right {
+  display: flex;
+  align-items: center;
+  gap: 20px; 
+  margin-left: auto; 
+}
+
+
+.date-picker {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: #555;
+}
+
+.date-picker .fa-calendar-alt {
+  margin-right: 8px;
+  color: #888;
+}
+
+.date-picker span {
+  background-color: #fff;         
+  border: 1px solid #ccc;         
+  border-radius: 5px;           
+  padding: 5px 10px;              
+  color: #555;                  
+  display: inline-block;          
+  font-size: 14px;                
+}
+
+.date-picker span strong{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn-download {
+  background-color: #fff;         
+  border: 1px solid #ccc;         
+  border-radius: 5px;           
+  padding: 5px 10px;              
+  color: #555;                  
+  display: inline-block;          
+  font-size: 14px;
+}
+
+.btn-download .fa-download {
+  margin-right: 10px;
+}
+
+
+
+.btn-add-customer {
+  background-color: #ff5757;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.btn-add-customer .fa-plus {
+  margin-right: 10px;
+}
+
+.btn-add-customer:hover {
+  background-color: #d64545;
+}
